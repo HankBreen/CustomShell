@@ -281,16 +281,12 @@ int wait(const int& childPid) {
  * Helper method to setup a TCP stream for downloading data from an
  * web-server.
  * 
- * @param host The host name of the web-server. Host names can be of
- * the from "www.miamioh.edu" or "ceclnx01.cec.miamioh.edu".  This
- * information is typically extracted from a given URL.
+ * @param host The host name of the web-server. 
  *
- * @param path The path to the file being download.  An example of
- * this value is ""
+ * @param path The path to the file being download.  
  *
  * @param socket The TCP stream (aka socket) to be setup by this
- * method.  After a successful call to this method, this stream will
- * contain the response from the web-server to be processed.
+ * method. 
  *
  * @param port An optional port number. The default port number is "80"
  *
